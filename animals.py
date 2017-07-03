@@ -21,3 +21,7 @@ class Animal(object):
     def display_health(self):
         print "Health:", self.health
 
+
+class Dog(Animal):
+    super(Dog, self).__init__()
+    
